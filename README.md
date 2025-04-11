@@ -6,6 +6,10 @@
 
 ---
 
+## Overview
+This document demonstrates my end-to-end approach in planning, monitoring, and controlling the execution of the LC1 Intake Substation (66kV/22kV)—a critical power-up node for the JRL MRT project. The micro-scheduling strategy provided visibility for over 60+ interdependent activities, ensuring the timely energization milestone was met on 06 January 2025
+
+---
 ## 📘 Table of Contents
 
 1. [Project Overview](#project-overview)  
