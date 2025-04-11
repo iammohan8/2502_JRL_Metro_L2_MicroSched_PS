@@ -35,7 +35,9 @@
 - **Schedule Model**: Excel Gantt Chart + Primavera L1 Coordination
 
 ---
+![VISUAL 1_ Gantt Chart – Plan vs Actual (Filtered)](https://github.com/user-attachments/assets/193ab3fe-303e-44ec-93e5-bf7cb96aca58)
 
+---
 ## My Specialist Roles
 
 | Role | Key Deliverables |
@@ -170,7 +172,16 @@
 | Power ON | 06-Jan-2025 | 06-Jan-2025 | ✅ Achieved | Milestone met 🎯 |
 
 ---
+![Visual5_Trend Chart_ Cumulative Tasks Completed Over Time](https://github.com/user-attachments/assets/5a2c8a32-7206-4324-91cb-a6a6a2651c6f)
 
+---
+
+![Visual3_Delay Visualization with patchwork](https://github.com/user-attachments/assets/e159cfd2-d35c-4f45-a290-05fefdca4e96)
+
+---
+![Visual4_SUMMARY TABLE_ Delayed Tasks](https://github.com/user-attachments/assets/134060a7-8d52-4860-b296-d979406e8458)
+
+---
 ## Outcome & Recognition
 
 - 🎯 **LC1 Intake Substation energized on 06 Jan 2025**  
@@ -181,8 +192,16 @@
 
 ---
 
-## Folder Structure???????????????????????????????????????????????
+## 📂 Shared Folder – Project Files
 
+All project-related files are organized and available for download via Google Drive. This includes:
+
+- 📊 **Input Files** (`.xls`) – Micro schedule data for Power Supply System (Contract J153, JRL Singapore)
+- 🖼️ **Output Visualizations** – Gantt charts and timeline comparison images
+- 💻 **Source Code** – R scripts (`.R`) and RMarkdown notebooks (`.Rmd`)
+- 🌐 **HTML Report** – Final rendered HTML report with Plan vs Actual timelines
+
+🔗 [**Download the Shared Folder**](https://drive.google.com/drive/folders/1NO_knbuAl6OFB0U1Tn3bBQkUP2y8AJKi?usp=sharing)
 
 
 ---
@@ -190,5 +209,14 @@
 > 💡 _This micro-schedule served as the **backbone of successful execution** and power energization of the first power-up node in the Jurong Region Line (J153) project._
 
 ---
+## 📬 Connect with Me
+
+If you have any questions, feedback, or collaboration ideas, feel free to reach out!
+
+- 📧 **Email**: [yourname@email.com](avmohankavi@gmail.com)  
+- 💼 **LinkedIn**: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/mohan-anbazhagan-82b56161)  
+- 💬 **WhatsApp**: [Click to Chat](https://wa.me/919566530327)
+
+Looking forward to connecting with you!
 
 
