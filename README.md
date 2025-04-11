@@ -1,22 +1,24 @@
-# JRL – LC1 Intake Substation Micro Schedule  
-### Execution Planning, Monitoring & Control | Level-2 Schedule | Jurong Region Line (J153)
+# 🔌 JRL – LC1 Intake Substation Micro Schedule Portfolio
 
-This documentation outlines the project execution strategy, tools used, skills applied, schedule visualization, and real-time decision-making process for the **LC1 Intake Substation (66kV/22kV)**, the first power-up point for the **Jurong Region Line (JRL) – J153 Package** in Singapore.
+> **Specialist in Project Scheduling, Data Analytics, Project Management, Risk Assessment, and Technical Documentation**  
+> **Jurong Region Line (J153 Package) | Singapore**
 
 ---
 
 ## 📘 Table of Contents
 
 1. [Project Overview](#project-overview)  
-2. [Consortium Responsibility Split](#consortium-responsibility-split)  
-3. [Tools Used](#tools-used)  
-4. [Skills Applied](#skills-applied)  
-5. [Planning Approach – Step-by-Step](#planning-approach--step-by-step)  
-6. [Risk Assessment & Mitigation Plan](#risk-assessment--mitigation-plan)  
-7. [Testing & Commissioning Integration Strategy](#testing--commissioning-integration-strategy)  
-8. [Schedule Visualization Snapshots](#schedule-visualization-snapshots)  
-9. [Outcome & Conclusion](#outcome--conclusion)  
-10. [Folder Structure](#folder-structure)
+2. [My Specialist Roles](#my-specialist-roles)  
+3. [Consortium Responsibility Split](#consortium-responsibility-split)  
+4. [Tools & Technologies Used](#tools--technologies-used)  
+5. [Skills & Competencies Applied](#skills--competencies-applied)  
+6. [Execution Planning – Step-by-Step](#execution-planning--step-by-step)  
+7. [Technical Specifications & Method Statements](#technical-specifications--method-statements)  
+8. [Risk Assessment & Mitigation Plan](#risk-assessment--mitigation-plan)  
+9. [Testing & Commissioning Strategy](#testing--commissioning-strategy)  
+10. [Schedule Visualization](#schedule-visualization)  
+11. [Outcome & Recognition](#outcome--recognition)  
+12. [Folder Structure](#folder-structure)
 
 ---
 
@@ -24,12 +26,25 @@ This documentation outlines the project execution strategy, tools used, skills a
 
 - **Project**: Jurong Region Line (JRL), Singapore  
 - **Package**: J153 – Electrical Power Supply System  
-- **Execution Focus**: LC1 Intake Substation (66kV/22kV)  
-- **System Milestone**: First energization of 24-station power supply – **achieved on 06 Jan 2025**  
+- **Execution Node**: LC1 Intake Substation (66kV/22kV) – *First Energization Point*  
+- **Client Milestone Achieved**: ✅ Energized on **06 Jan 2025**  
 - **Execution Period**: Mid-2023 to Q1 2025  
-- **Contract Type**: EPC  
-- **Micro Schedule Level**: Level 2 (L2) – Installation & T&C breakdown  
-- **Deliverables**: Excel-based Gantt chart with interdependencies and critical path tracking
+- **Schedule Level**: L2 (Micro-Schedule) for Installation & T&C  
+- **Project Type**: EPC (Engineering, Procurement & Construction)  
+- **Schedule Model**: Excel Gantt Chart + Primavera L1 Coordination
+
+---
+
+## My Specialist Roles
+
+| Role | Key Deliverables |
+|------|------------------|
+| 📊 **Data Analyst** | Gantt chart-based micro scheduling with status heatmaps and live dashboards |
+| 📅 **Project Scheduler** | Creation of Level-2 detailed execution plan aligned with critical path |
+| 📑 **Technical Author** | Developed method statements and equipment-specific testing protocols |
+| 🧪 **Risk Assessor** | Performed risk analysis and mitigation for GIS, transformers, and cable work |
+| 🛠️ **Project Manager (Field)** | Coordinated installation, vendors, SCADA interface, and milestone planning |
+| 💬 **Stakeholder Communicator** | Daily updates, coordination with Siemens HQ, LTA, and Concord Corporation |
 
 ---
 
@@ -37,115 +52,140 @@ This documentation outlines the project execution strategy, tools used, skills a
 
 | Partner        | Scope                                                                 |
 |----------------|----------------------------------------------------------------------|
-| **Siemens**    | Design engineering, supply of all electrical equipment (GIS, panels, transformers, protection relays, SCADA, etc.) |
-| **Concord Corporation** | Procurement of 66kV/22kV power cables, containment materials; installation of Siemens equipment; testing and commissioning execution |
+| **Siemens**    | Design, supply of GIS, transformers, SCADA, relays, protection panels |
+| **Concord Corp.** | Cable procurement, installation execution, site T&C |
 
 ---
 
-## Tools Used
+## Tools & Technologies Used
 
 | Tool | Purpose |
 |------|---------|
-| **Primavera P6** | Extraction of WBS/activity codes from master L1 schedule |
-| **Microsoft Excel** | Preparation of micro schedule, dependencies, and float tracking |
-| **AutoCAD / Markup Tools** | Equipment layout and cable routing review |
-| **MS Teams & Outlook** | Stakeholder communication and review sessions |
-| **LTA C3D Portal** | Official submission and progress reporting |
+| **Primavera P6** | Master L1 schedule alignment |
+| **MS Excel** | Level-2 micro schedule, Gantt chart, delay buffer tracking |
+| **AutoCAD / Bluebeam** | Equipment layout and cable routing markups |
+| **Power BI (local use)** | Visualization of critical path, status heatmaps |
+| **Outlook + MS Teams** | Review workflows, daily updates |
+| **LTA C3D Portal** | Client reporting, document upload & milestone validation |
 
 ---
 
-## Skills Applied
+## Skills & Competencies Applied
 
-- Level 2 Schedule Structuring & Breakdown  
-- Electrical Equipment Scope & Interface Mapping  
-- Installation vs. T&C Overlap Planning  
-- Critical Path & Risk Buffer Tracking  
-- Stakeholder Coordination & Progress Validation  
-- Excel Gantt Chart & Float Analysis Techniques  
-- Delay Recovery & Workaround Execution
+- 👷‍♂️ Electrical Installation Workflow Design (GIS, 66kV/22kV equipment)
+- 📆 Micro-Scheduling Techniques with Critical Path Optimization
+- 🔄 Dynamic T&C Integration Planning
+- 🧮 Data-Driven Analytics for Progress Monitoring
+- 📝 Risk Identification and Schedule Realignment
+- 📋 Method Statement Development for Cable Termination, Busbar Works
+- 🧪 Safety Protocol Writing & Risk Assessment for High Voltage Works
 
 ---
 
-## Planning Approach – Step-by-Step
+## Execution Planning – Step-by-Step
 
-### 1. **Scope Derivation from L1 Schedule**
-- Extracted relevant WBS from Primavera baseline schedule.
-- Matched equipment and system tags against actual site delivery schedule.
+1. **WBS Extraction**  
+   - Derived LC1-relevant activities from Primavera L1.
+   - Mapped system tags (e.g., GIS, Transformer, SCADA) to scope.
 
-### 2. **Work Package Definition**
-- Created logical workgroups:
-  - Containment installation  
-  - Cable pulling  
-  - Equipment installation  
-  - Termination & testing  
-  - SCADA connection & energization
+2. **Work Package Breakdown**  
+   - Logical grouping by:
+     - Containment
+     - Cable pulling
+     - Equipment erection
+     - Testing & commissioning
 
-### 3. **Sequencing and Dependency Logic**
-- Dependencies mapped as per actual workflow, not idealized sequence.
-- E.g., cable containment → cable laying → glanding → termination → insulation testing → SCADA integration
+3. **Sequence & Dependency Mapping**  
+   - Realistic sequencing based on on-ground workflows.
+   - Example:
+     - Containment → Cable Laying → Glanding → Termination → Cold Checks → SCADA Dry Runs
 
-### 4. **Realistic Duration Planning**
-- Consulted vendor lead time reports.
-- Incorporated EHS access clearance time and third-party inspection schedules.
+4. **Data-Driven Scheduling**  
+   - Applied vendor delivery lead time, manpower analysis, EHS access windows.
+   - Duration buffers created based on site historical productivity data.
 
-### 5. **Live Progress Monitoring**
-- Weekly updates taken from site supervisors and subcontractors.
-- Gantt bars color-coded to reflect real-time status:
-  - Green = Complete
-  - Blue = In Progress
-  - Red = Critical Delay
+5. **Live Monitoring & Control**  
+   - Weekly updates gathered.
+   - Tracked using Excel dashboards with:
+     - Green: Completed
+     - Blue: In Progress
+     - Red: At Risk/Critical
+     - Yellow: Delayed but recoverable
+
+---
+
+## Technical Specifications & Method Statements
+
+- **Prepared Equipment-specific Method Statements** for:
+  - GIS Installation & Gas Filling Procedure
+  - Transformer Dry-out and Oil Testing
+  - Cable Glanding, Termination, and IR/PI Testing
+  - Relay Panel Functional Checks
+- **Used Site-Specific Layouts** to plan space allocation, inter-bay access, and control cable routing.
+- Incorporated **Safe Work Procedures** and **LTA/EHS Mandates** for:
+  - Hot Works
+  - Confined Space Testing
+  - HV Access Clearance
 
 ---
 
 ## Risk Assessment & Mitigation Plan
 
-### Identified Delay: **Spare Parts for 66kV GIS SWG & Power Transformer**
+| Issue | Impact | Action |
+|-------|--------|--------|
+| Delay in 66kV Transformer Bushing | Risk to Power ON | Cold test and relay panel activities advanced to absorb delay |
+| GIS spare parts from Siemens | Threat to functional checks | Parallel system (LV) tested first, dummy loads used for GIS simulation |
+| Site Access Constraints | T&C Execution Lag | Re-sequenced scope to allow night shifts and parallel panels commissioning |
 
-| Issue | Impact | Action Taken |
-|-------|--------|--------------|
-| Spare parts not delivered on time from Siemens warehouse | Risk to T&C schedule | Mitigated by adjusting the scope sequence – began low-voltage system testing and relay panel setup in parallel while waiting |
-| Transformer bushing delay | Threat to energization | Closely tracked with Siemens logistics; revised plan to complete cold checks and SCADA dry tests in advance |
-
-**Result**: Despite delays, all activities were realigned and power was successfully turned ON on 06 Jan 2025, without violating the client milestone.
-
----
-
-## Testing & Commissioning Integration Strategy
-
-From the beginning, I developed the schedule to **overlap Testing & Commissioning with Installation** to optimize time and manage constraints.
-
-### My T&C Planning Thought Process:
-- Installation was divided per system group (GIS, Transformer, Panels, SCADA).
-- Once one system was installed and completed cold checks, I **released it for T&C**, rather than waiting for the full installation scope to finish.
-- For example:
-  - **Relay Panel Testing** was initiated while transformer testing was pending.
-  - **GIS functional checks** were done using dummy loads while waiting for final connections.
-- This overlapping approach allowed **parallel workflows**, which accelerated delivery and enabled **risk absorption** of potential delays.
+✅ **Result**: Mitigated all major risks with **no slippage** on energization milestone.
 
 ---
 
-## Schedule Visualization Snapshots
+## Testing & Commissioning Strategy
 
-### Installation Milestone Tracker
-
-| Activity | Start Date | End Date | Status | Notes |
-|----------|------------|----------|--------|-------|
-| Containment Install | 01-Nov-2024 | 15-Nov-2024 | ✅ Complete | Done ahead of schedule |
-| Cable Pulling | 16-Nov-2024 | 30-Nov-2024 | 🟦 Ongoing | Major cables in progress |
-| Equipment Installation | 01-Dec-2024 | 18-Dec-2024 | 🟥 Delayed | Due to GIS part delay |
-| Termination & Testing | 20-Dec-2024 | 03-Jan-2025 | 🟩 Proceeding | Parallel T&C started |
-| Power ON | 06-Jan-2025 | 06-Jan-2025 | ✅ Success | On milestone date |
+- **Parallel T&C Execution Plan**:
+  - Testing began **per system group** (GIS, Relay Panel, Transformer).
+  - Cold checks and dry runs released **before full installation completion**.
+- **Smart Overlapping**:
+  - GIS checks using simulation
+  - Relay panel energized before final cable terminations
+- **Outcome**:
+  - Reduced idle wait time
+  - Increased schedule flexibility
+  - Absorbed logistic uncertainties
 
 ---
 
-## Outcome & Conclusion
+## Schedule Visualization
 
-- ✅ **Successfully achieved LC1 Power ON** milestone on **06 January 2025**  
-- 🛠️ Mitigated part delays through smart sequencing and overlap of installation and T&C  
-- 📋 My micro schedule served as the **execution backbone** for internal teams, vendors, and LTA coordination  
-- 🏆 Recognized for precise tracking, real-time adjustments, and collaborative problem solving
+| Activity | Start | End | Status | Remarks |
+|----------|-------|-----|--------|---------|
+| Containment | 01-Nov-2024 | 15-Nov-2024 | ✅ Complete | Early finish |
+| Cable Pulling | 16-Nov-2024 | 30-Nov-2024 | 🟦 In Progress | Major cables done |
+| Equipment Erection | 01-Dec-2024 | 18-Dec-2024 | 🟥 Delayed | GIS parts late |
+| Termination & T&C | 20-Dec-2024 | 03-Jan-2025 | 🟩 Parallel Execution | Smart overlap applied |
+| Power ON | 06-Jan-2025 | 06-Jan-2025 | ✅ Achieved | Milestone met 🎯 |
+
+---
+
+## Outcome & Recognition
+
+- 🎯 **LC1 Intake Substation energized on 06 Jan 2025**  
+- 📌 Maintained client milestone despite logistic and access delays  
+- 🛠️ Demonstrated real-time adaptability in schedule execution  
+- 🧠 Applied data analytics and risk-based planning for dynamic control  
+- 🏅 Recognized by project leadership for proactive recovery and micro-schedule accuracy
 
 ---
 
 ## Folder Structure
+
+
+
+---
+
+> 💡 _This micro-schedule served as the **backbone of successful execution** and power energization of the first power-up node in the Jurong Region Line (J153) project._
+
+---
+
 
