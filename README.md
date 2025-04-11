@@ -1,4 +1,5 @@
-# 🔌 JRL – LC1 Intake Substation Micro Schedule Portfolio
+
+# 🔌 JRL – Metro Project Micro schedule for Power supply system
 
 > **Specialist in Project Scheduling, Data Analytics, Project Management, Risk Assessment, and Technical Documentation**  
 > **Jurong Region Line (J153 Package) | Singapore**
@@ -28,8 +29,8 @@
 - **Package**: J153 – Electrical Power Supply System  
 - **Execution Node**: LC1 Intake Substation (66kV/22kV) – *First Energization Point*  
 - **Client Milestone Achieved**: ✅ Energized on **06 Jan 2025**  
-- **Execution Period**: Mid-2023 to Q1 2025  
-- **Schedule Level**: L2 (Micro-Schedule) for Installation & T&C  
+- **Execution Period**: Q4-2023 to Q1 2025  
+- **Schedule Level**: L2 (Micro-Schedule) for Installation & Testing & Commissioning  
 - **Project Type**: EPC (Engineering, Procurement & Construction)  
 - **Schedule Model**: Excel Gantt Chart + Primavera L1 Coordination
 
@@ -43,7 +44,7 @@
 | 📅 **Project Scheduler** | Creation of Level-2 detailed execution plan aligned with critical path |
 | 📑 **Technical Author** | Developed method statements and equipment-specific testing protocols |
 | 🧪 **Risk Assessor** | Performed risk analysis and mitigation for GIS, transformers, and cable work |
-| 🛠️ **Project Manager (Field)** | Coordinated installation, vendors, SCADA interface, and milestone planning |
+| 🛠️ **Project Management (Field)** | Coordinated installation, vendors, SCADA interface, and milestone planning |
 | 💬 **Stakeholder Communicator** | Daily updates, coordination with Siemens HQ, LTA, and Concord Corporation |
 
 ---
@@ -52,8 +53,8 @@
 
 | Partner        | Scope                                                                 |
 |----------------|----------------------------------------------------------------------|
-| **Siemens**    | Design, supply of GIS, transformers, SCADA, relays, protection panels |
-| **Concord Corp.** | Cable procurement, installation execution, site T&C |
+| **SIEMENS**    | Design, supply of GIS, transformers, other equipment, SCADA system, protection panels |
+| **CONCORD CORPORATION.** | Cable procurement, installation execution, site Testing & Commssioning |
 
 ---
 
@@ -63,10 +64,10 @@
 |------|---------|
 | **Primavera P6** | Master L1 schedule alignment |
 | **MS Excel** | Level-2 micro schedule, Gantt chart, delay buffer tracking |
-| **AutoCAD / Bluebeam** | Equipment layout and cable routing markups |
-| **Power BI (local use)** | Visualization of critical path, status heatmaps |
+| **AutoCAD / Navisworks** | Equipment layout and cable routing markups |
+| **R Studio** | Visualization of critical path, status heatmaps |
 | **Outlook + MS Teams** | Review workflows, daily updates |
-| **LTA C3D Portal** | Client reporting, document upload & milestone validation |
+| **LTA inSIGHT Portal** | Client reporting, document upload & milestone validation |
 
 ---
 
@@ -86,10 +87,11 @@
 
 1. **WBS Extraction**  
    - Derived LC1-relevant activities from Primavera L1.
-   - Mapped system tags (e.g., GIS, Transformer, SCADA) to scope.
+   - Mapped system tags (e.g., GIS, Transformer, Installation and Testing) to scope.
 
 2. **Work Package Breakdown**  
    - Logical grouping by:
+     - Delivery of Electrical equipment and materials
      - Containment
      - Cable pulling
      - Equipment erection
@@ -98,7 +100,7 @@
 3. **Sequence & Dependency Mapping**  
    - Realistic sequencing based on on-ground workflows.
    - Example:
-     - Containment → Cable Laying → Glanding → Termination → Cold Checks → SCADA Dry Runs
+     - Equipment → Containment → Cable Laying → Glanding → Termination → testing and Commssioning → SCADA system
 
 4. **Data-Driven Scheduling**  
    - Applied vendor delivery lead time, manpower analysis, EHS access windows.
@@ -118,14 +120,15 @@
 
 - **Prepared Equipment-specific Method Statements** for:
   - GIS Installation & Gas Filling Procedure
-  - Transformer Dry-out and Oil Testing
-  - Cable Glanding, Termination, and IR/PI Testing
-  - Relay Panel Functional Checks
+  - Transformer installation and Oil filling 
+  - Cable Glanding, Termination, and IR Testing
+  - Testing and commissioning
 - **Used Site-Specific Layouts** to plan space allocation, inter-bay access, and control cable routing.
-- Incorporated **Safe Work Procedures** and **LTA/EHS Mandates** for:
+- Incorporated **Safe Work Procedures** and **LTA/WSH Mandates** for:
   - Hot Works
-  - Confined Space Testing
-  - HV Access Clearance
+  - Confined Space works
+  - Lifting operation
+  - Work at height
 
 ---
 
@@ -178,7 +181,7 @@
 
 ---
 
-## Folder Structure
+## Folder Structure???????????????????????????????????????????????
 
 
 
